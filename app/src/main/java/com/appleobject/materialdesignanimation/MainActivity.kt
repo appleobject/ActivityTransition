@@ -29,6 +29,8 @@ class MainActivity : AppCompatActivity() {
         imageView = findViewById(R.id.img_view_logo)
         imageView2 = findViewById<ImageView>(R.id.shared_img)
 
+        setupWindowAnimation()
+
         btn_ripple.setOnClickListener {
             val intent = Intent(this, RippleActivity::class.java)
             startActivity(intent)
@@ -117,6 +119,8 @@ class MainActivity : AppCompatActivity() {
         slideTransition.duration = 1000
 
         window.reenterTransition = slideTransition
+
+        window.exitTransition = slideTransition
 
         // To prevent transition overlap
         window.allowReturnTransitionOverlap = false
