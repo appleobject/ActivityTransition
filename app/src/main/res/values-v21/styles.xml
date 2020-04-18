@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#F44336</item>
+        <item name="colorPrimaryDark">#C50000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="colorControlHighlight">#f44336</item>
+        <item name="colorButtonNormal">#ff67ff</item>
+
+        <!-- The window transition -->
+<!--        <item name="android:windowContentTransitions">true</item>-->
+    </style>
+</resources>

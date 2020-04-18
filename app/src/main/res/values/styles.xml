@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#F44336</item>
+        <item name="colorPrimaryDark">#C50000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="colorControlHighlight">#f44336</item>
+        <item name="colorButtonNormal">#ff67ff</item>
+
+        <!-- Enable window content transition - Either specify here or in the activity -->
+<!--        <item name="android:windowContentTransitions">true</item>-->
+    </style>
+
+    <style name="myAppTheme" parent="AppTheme">
+        <item name="colorPrimary">#F44336</item>
+        <item name="colorPrimaryDark">#C50000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MaterialDesignAnimation</string>
+    <string name="ripple_effect">Ripple effect</string>
+    <string name="ripple_effects">ripple effects</string>
+    <string name="explode_transition">Explode Transition</string>
+    <string name="smartherd">Smartherd</string>
+    <string name="ripple_without_border">Ripple Without Border</string>
+    <string name="ripple_with_border">Ripple With Border</string>
+    <string name="custom_ripple_with_border">Custom Ripple With Border</string>
+    <string name="custom_ripple_without_border">Custom Ripple Without Border</string>
+<!--    <string name="description">"welcome to smartherd \nstay turn for more tutorial and courses"</string>-->
+</resources>

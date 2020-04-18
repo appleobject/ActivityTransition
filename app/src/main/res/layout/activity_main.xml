@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_ripple"
+        android:text="@string/ripple_effects"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:id="@+id/shared_element"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/img_view_logo"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_lin"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:transitionName="logo_shared" />
+
+        <TextView
+            android:id="@+id/tv_shared_element"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:text="@string/smartherd"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            android:transitionName="smarthard_shared" />
+
+        <ImageView
+            android:id="@+id/shared_img"
+            android:layout_width="55dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="20dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/ic_lin2"
+            android:transitionName="profile_pic_shared" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/explode_transition"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_java_explode"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:text="java code" />
+            <Button
+                android:id="@+id/btn_xml_explode"
+                android:layout_marginLeft="10dp"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:text="xml" />
+        </LinearLayout>
+        <TextView
+            android:textSize="20sp"
+            android:text="Slide Transition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_java_slide"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:text="java code" />
+            <Button
+                android:id="@+id/btn_xml_slide"
+                android:layout_marginLeft="10dp"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:text="xml" />
+        </LinearLayout>
+            <TextView
+                android:text="fade transition"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_java_fade"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:text="java code" />
+            <Button
+                android:id="@+id/btn_xml_fade"
+                android:layout_marginLeft="10dp"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:text="xml" />
+        </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        </LinearLayout>
